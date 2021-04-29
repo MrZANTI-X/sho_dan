@@ -1,3 +1,4 @@
+pkg install rdiff-backup -y
 easy_install shodan
 sleep 1
 pip install shodan
