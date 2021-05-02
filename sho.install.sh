@@ -5,3 +5,14 @@ sleep 1
 pip install shodan
 read -p "shodan into api key " AA
 shodan init "$AA"
+read -p "update now (y/n) " SGF
+case $SGF in
+y*)
+   echo "update now " 
+   git clone https://github.com/zanri1/sho_dan
+   clear
+;;
+n*)
+   echo "ok !"
+;;
+esac
