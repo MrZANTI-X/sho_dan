@@ -16,6 +16,7 @@ echo -en $A2 '
 [  8 ] shodan-host
 [  9 ] myip
 [ 10 ] shodan-info
+[  S ] data-read
 [  A ] about
 '
 }
@@ -69,6 +70,12 @@ case $data in
 10)
   echo "shodan-info"
   shodan info 
+;;
+S*)
+  echo "data-file"
+  read -p "enter file name " AAS
+  read -p "enter serach enquiry " AQW
+  shodan download $AAS $AQW
 ;;
 A*)
   echo "about "
