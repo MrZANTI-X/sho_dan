@@ -72,6 +72,6 @@ case $data in
 ;;
 A*)
   echo "about "
-  termux-open-url https://youtu.be/CxaPEDXVH7w
+  termux-open-url https://youtube.com/channel/UCFm8ZvT8ZZ6RpqpWKRy9ZMg
 ;;
 esac
