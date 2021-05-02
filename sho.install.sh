@@ -9,7 +9,7 @@ read -p "update now (y/n) " SGF
 case $SGF in
 y*)
    echo "update now " 
-   git clone https://github.com/zanti1/sho_dan
+   git clone https://github.com/zanti1/sho_dan.git
    clear
 ;;
 n*)
