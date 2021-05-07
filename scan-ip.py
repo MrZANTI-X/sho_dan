@@ -4,16 +4,46 @@ import requests, re , colorama
 colorama.init()
 print("hello user")
 print("""
-1 us   11 TR   
-2 JP   12 AT
-3 IT   13 CH
-4 KR   14 ES
-5 FR   15 CA
-6 DR   16 SE
-7 TW   17 IL
-8 RU   18 PL
-9 GB   19 IR
-10 CZ  20 NO
+[  1 ] US
+[  2 ] JP
+[  3 ] IT
+[  4 ] KR
+[  5 ] FR
+[  6 ] DE
+[  7 ] TW
+[  8 ] RU
+[  9 ] GB
+[ 10 ] CZ
+[ 11 ] TR
+[ 12 ] AT
+[ 13 ] CH
+[ 14 ] ES
+[ 15 ] CA
+[ 16 ] SE
+[ 17 ] IL
+[ 18 ] PL
+[ 19 ] NO
+[ 20 ] RO
+[ 21 ] IN
+[ 22 ] VN
+[ 23 ] BE
+[ 24 ] BR
+[ 25 ] BG
+[ 26 ] ID
+[ 27 ] DK
+[ 28 ] MX
+[ 29 ] FI
+[ 30 ] CN
+[ 31 ] CL
+[ 32 ] ZA
+[ 33 ] SK
+[ 34 ] HU
+[ 35 ] IE
+[ 36 ] EG
+[ 37 ] UA
+[ 38 ] RS
+[ 39 ] HK
+[ 40 ] GR
 """)
 try:
     print()
