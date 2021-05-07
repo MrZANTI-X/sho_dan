@@ -16,6 +16,7 @@ echo -en $A2 '
 [  8 ] shodan-host
 [  9 ] myip
 [ 10 ] shodan-info
+[ 11 ] ip-scan
 [  S ] data-read
 [  A ] about
 '
@@ -70,6 +71,10 @@ case $data in
 10)
   echo "shodan-info"
   shodan info 
+;;
+11)
+  echo "ip-scan "
+  python scan-ip.py
 ;;
 S*)
   echo "data-file"
