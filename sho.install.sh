@@ -1,3 +1,4 @@
+pkg install python -y
 pkg install termux-api -y
 pkg install rdiff-backup -y
 easy_install shodan
