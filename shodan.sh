@@ -74,7 +74,7 @@ case $data in
 ;;
 11)
   echo "ip-scan "
-  python scan-ip.py
+  python ip-scaner.py
 ;;
 S*)
   echo "data-file"
